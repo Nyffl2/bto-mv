@@ -1,0 +1,6 @@
+{
+  "name": "Hentai Kabar",
+  "description": "A modern movie streaming website featuring a sleek dark-purple theme, announcement banner, interactive search and filtering, and responsive movie player.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

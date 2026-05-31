@@ -1,0 +1,86 @@
+{
+  "notice": "📢အကန့်အသတ်မရှိကြည့်ရန် Hentai Kabar Telegram Channel သို့ ဝင်ရောက်ပူးပေါင်းပါ။",
+  "notice_link": "https://t.me/hentaikabar",
+  "movies": [
+    {
+      "id": "overflow",
+      "title": "Season 1 (Uncensored Complete)",
+      "thumbnail": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=600&auto=format&fit=crop&q=80",
+      "description": "After a sudden mishap with puddling bath lotion, a young male student ends up getting a lot closer to his childhood friend and her attractive sister. An absolute classic uncensored anime that balances hilarious slice-of-life comedy with highly engaging chemistry.",
+      "embed_link": "https://youtu.be/cW5ZTXb7ntA?si=pPLKKkdCXy-5cTMP",
+      "genre": "Romance, Comedy",
+      "rating": "9.4",
+      "duration": "12 mins / episode"
+    },
+    {
+      "id": "night-shift-nurses",
+      "title": "Night Shift Nurses: Rebirth",
+      "thumbnail": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&auto=format&fit=crop&q=80",
+      "description": "Step into the intense and dramatic late-night ward where secret romances, complicated medical relationships, and mysterious staff operations take center stage under the neon clinic lights.",
+      "embed_link": "https://youtu.be/cW5ZTXb7ntA?si=pPLKKkdCXy-5cTMP",
+      "genre": "Drama, Psychological",
+      "rating": "8.9",
+      "duration": "24 mins / episode"
+    },
+    {
+      "id": "disciplina",
+      "title": "School Discipline Board (Episode 1 & 2)",
+      "thumbnail": "https://images.unsplash.com/photo-1560942485-b2a11cc13456?w=600&auto=format&fit=crop&q=80",
+      "description": "An academy student council enforces strict, unorthodox rules upon the student body. Drama escalates when a rebellious student decides to challenge the supreme council president in a battle of wits and willpower.",
+      "embed_link": "https://youtu.be/cW5ZTXb7ntA?si=pPLKKkdCXy-5cTMP",
+      "genre": "School Life, Romance",
+      "rating": "9.1",
+      "duration": "22 mins / episode"
+    },
+    {
+      "id": "valkyrie-flight",
+      "title": "Valkyrie Flight: Golden Wings",
+      "thumbnail": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600&auto=format&fit=crop&q=80",
+      "description": "In a post-apocalyptic future, a squad of genetically-engineered valkyries acts as the last shield of humanity against terrifying robotic entities. Action-packed combat paired with intricate character designs.",
+      "embed_link": "https://youtu.be/cW5ZTXb7ntA?si=pPLKKkdCXy-5cTMP",
+      "genre": "Sci-Fi, Action",
+      "rating": "9.5",
+      "duration": "28 mins / OVA"
+    },
+    {
+      "id": "sweet-temptation",
+      "title": "Sweet Temptation: Baker's Love",
+      "thumbnail": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&auto=format&fit=crop&q=80",
+      "description": "A comforting slice-of-life story about a multi-generational bakery where the sweet fragrance of warm bread and pastries sparks heartwarming connections, deep-seated romances, and wonderful memories.",
+      "embed_link": "https://youtu.be/cW5ZTXb7ntA?si=pPLKKkdCXy-5cTMP",
+      "genre": "Slice of Life, Sweet",
+      "rating": "8.7",
+      "duration": "15 mins / episode"
+    },
+    {
+      "id": "cyber-city-romance",
+      "title": "Cyber City: Neon Ecstasy",
+      "thumbnail": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=600&auto=format&fit=crop&q=80",
+      "description": "Underneath the dazzling neon skyscraper lights of Megalopolis, two hackers discover a secret romance that threatens to expose the corporate elite dominating the virtual netscape. Elegant synthwave aesthetic.",
+      "embed_link": "https://youtu.be/cW5ZTXb7ntA?si=pPLKKkdCXy-5cTMP",
+      "genre": "Cyberpunk, Sci-Fi",
+      "rating": "9.2",
+      "duration": "23 mins"
+    },
+    {
+      "id": "cyber",
+      "title": "Cyber City 2",
+      "thumbnail": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=600&auto=format&fit=crop&q=80",
+      "description": "Underneath the dazzling neon skyscraper lights of Megalopolis, two hackers discover a secret romance that threatens to expose the corporate elite dominating the virtual netscape. Elegant synthwave aesthetic.",
+      "embed_link": "https://youtu.be/cW5ZTXb7ntA?si=pPLKKkdCXy-5cTMP",
+      "genre": "Cyberpunk, Sci-Fi",
+      "rating": "9.2",
+      "duration": "23 mins"
+    },
+    {
+      "id": "cyber3",
+      "title": "Cyber City 3",
+      "thumbnail": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=600&auto=format&fit=crop&q=80",
+      "description": "Underneath the dazzling neon skyscraper lights of Megalopolis, two hackers discover a secret romance that threatens to expose the corporate elite dominating the virtual netscape. Elegant synthwave aesthetic.",
+      "embed_link": "https://youtu.be/cW5ZTXb7ntA?si=pPLKKkdCXy-5cTMP",
+      "genre": "Cyberpunk, Sci-Fi",
+      "rating": "9.2",
+      "duration": "23 mins"
+    }
+  ]
+}

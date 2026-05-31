@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hentai Kabar - Watching Uncensored Stream</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+Myanmar:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Style reference -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body class="bg-[#06020f] text-slate-100 min-h-screen pb-16">
+    <!-- Header Navigation Back bar -->
+    <header class="sticky top-0 z-50 bg-[#06020f]/85 backdrop-blur-md border-b border-[#2e1e56] py-4 px-4 sm:px-6">
+      <div class="max-w-7xl mx-auto flex items-center justify-between gap-4">
+        <!-- Back Navigation link -->
+        <a href="/" class="inline-flex items-center gap-2.5 text-xs sm:text-sm font-bold text-slate-300 hover:text-white bg-[#130a24] border border-[#2e1e56] px-3.5 py-2 rounded-xl hover:border-[#8b5cf6] transition-all">
+          <i data-lucide="arrow-left" class="w-4 h-4 text-[#a78bfa]"></i>
+          <span>မူလစာမျက်နှာသို့ပြန်ရန်</span>
+        </a>
+
+        <!-- Branding mini -->
+        <a href="/" class="flex items-center gap-2">
+          <span class="text-xs sm:text-sm font-black text-white glow-text-purple tracking-wider uppercase">HENTAI KABAR</span>
+          <span class="text-[9px] bg-purple-950 font-bold border border-purple-500/20 text-[#c084fc] px-2 py-0.5 rounded font-mono uppercase">Streaming</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- Main Player Frame Layout Workspace -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 mt-8">
+      <!-- Grid layout for Player vs Suggestions -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        
+        <!-- Left Side Video Streaming Column -->
+        <section class="lg:col-span-2 space-y-6">
+          <!-- Main Player Display Frame -->
+          <div class="relative bg-black rounded-2xl overflow-hidden border border-[#2e1e56] shadow-2xl">
+            <!-- Dynamic Embedded Player Frame -->
+            <div class="aspect-video w-full relative">
+              <!-- JS-Injected iframe playing device -->
+              <div id="player-placeholder" class="absolute inset-0 bg-[#0c051a] flex flex-col items-center justify-center space-y-4">
+                <div class="w-10 h-10 border-4 border-[#8b5cf6] border-t-transparent rounded-full animate-spin"></div>
+                <p class="text-xs text-slate-400">ဗီဒီယိုဆာဗာကို ဆက်သွယ်နေပါသည်...</p>
+              </div>
+              <iframe
+                id="video-player"
+                className="w-full h-full absolute inset-0 hidden"
+                src=""
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+
+          <!-- Video Title Details & Content Badges Panel content details -->
+          <div class="bg-[#130a24] border border-[#2e1e56] rounded-2xl p-6 space-y-6 relative overflow-hidden">
+            <!-- High contrast banner decoration -->
+            <div class="absolute top-0 left-0 right-0 h-1.5 bg-[#8b5cf6]"></div>
+
+            <div class="space-y-3">
+              <div class="flex flex-wrap items-center gap-2.5">
+                <span id="video-tag" class="bg-[#2a1353] border border-[#4a2491]/65 text-[#d8b4fe] font-black text-[10px] sm:text-xs px-3 py-1 rounded-full uppercase tracking-wider">
+                  Loading...
+                </span>
+                <span id="video-rating" class="flex items-center gap-1.5 bg-amber-500 text-slate-950 font-black text-[10px] sm:text-xs px-3 py-1 rounded-full">
+                  <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                  <span>9.0</span>
+                </span>
+                <span id="video-duration" class="flex items-center gap-1.5 bg-slate-900 border border-[#2e1e56] text-slate-300 font-bold text-[10px] sm:text-xs px-3 py-1 rounded-full font-mono">
+                  <i data-lucide="clock" class="w-3.5 h-3.5 text-slate-400"></i>
+                  <span>24 mins</span>
+                </span>
+              </div>
+
+              <h2 id="video-title" class="text-xl sm:text-2xl font-black text-white leading-tight">
+                Loading Title Details...
+              </h2>
+            </div>
+
+            <!-- Share and Copy triggers -->
+            <div class="flex flex-wrap items-center gap-3 border-y border-[#2e1e56]/60 py-4">
+              <button id="copy-link-btn" class="inline-flex items-center gap-2 text-xs font-bold text-[#c084fc] hover:text-white bg-[#1a0f30] border border-[#301a59] px-4 py-2.5 rounded-xl hover:border-[#8b5cf6] transition-all pointer-events-auto cursor-pointer">
+                <i data-lucide="share-2" class="w-4 h-4"></i>
+                <span>လင့်ခ်ယူရန် (Share Link)</span>
+              </button>
+              
+              <a href="https://t.me/hentaikabar" target="_blank" class="inline-flex items-center gap-2 text-xs font-bold text-white bg-gradient-to-r from-[#0088cc] to-[#00a2ed] px-4 py-2.5 rounded-xl hover:brightness-110 shadow-lg shadow-sky-950/30 transition-all">
+                <i data-lucide="send" class="w-4 h-4"></i>
+                <span>Telegram သို့ဝင်ရန် (Join)</span>
+              </a>
+              
+              <span id="copy-success" class="text-xs text-emerald-400 font-semibold flex items-center gap-1 opacity-0 transition-opacity">
+                <i data-lucide="check" class="w-4 h-4"></i> လင့်ခ်ကော်ပီကူးယူပြီးပါပြီ!
+              </span>
+            </div>
+
+            <!-- Description context narrative text box -->
+            <div class="space-y-3.5">
+              <h3 class="text-sm font-black text-slate-200 uppercase tracking-wider flex items-center gap-1.5">
+                <i data-lucide="info" class="w-4 h-4 text-[#8b5cf6]"></i>
+                ဇာတ်လမ်းအကျဉ်း (Description)
+              </h3>
+              <p id="video-description" class="text-xs sm:text-sm font-normal text-slate-400 leading-relaxed font-light">
+                ...
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Right Side Recommendation System Column -->
+        <aside class="space-y-6">
+          <div class="bg-[#130a24] border border-[#2e1e56] rounded-2xl p-5 space-y-4">
+            <div class="flex items-center gap-2 border-b border-[#2e1e56] pb-3">
+              <i data-lucide="sparkles" class="w-4 h-4 text-[#a78bfa]"></i>
+              <h3 class="text-sm font-black text-white uppercase tracking-wider">အကြံပြုတင်ဆက်မှုများ</h3>
+            </div>
+            
+            <div id="suggestions-container" class="space-y-3">
+              <!-- JS Injected dynamic recommendation cards -->
+              <div class="shimmer-section space-y-3">
+                <div class="h-20 shimmer-bg rounded-xl"></div>
+                <div class="h-20 shimmer-bg rounded-xl"></div>
+                <div class="h-20 shimmer-bg rounded-xl"></div>
+              </div>
+            </div>
+          </div>
+        </aside>
+
+      </div>
+    </main>
+
+    <!-- JS Logic Core script load -->
+    <script type="module" src="/watch.js"></script>
+  </body>
+</html>
